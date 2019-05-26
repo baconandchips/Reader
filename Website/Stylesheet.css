@@ -94,3 +94,15 @@ body {
 .button
 {
   text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: medium solid #28cc3b;
+  border-top-width: : 10px 10px 10px 10;
+  background-color: #fff4dd;
+  color: whited;
+  text-align: center;
+}
