@@ -7,30 +7,59 @@ ul {
   background-color: #f3f3f3;
 }
 
-li {
+img {
+  width: 100%;
+}
+
+.bg-img{
+  /* The image used */
+  background-image: url("apple-clean-containers-205316.jpg");
+
+  min-height: 300px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #666;
+}
+
+/* Navbar links */
+.topnav a {
   float: left;
-  border-right:1px solid #bbb;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
-  color: #666;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover:not(.active) {
-  background-color: #ddd;
+.topnav a:hover:not(.active) {
+  background-color: #28cc3b;
 }
 
-li a.active {
-  color: white;
-  background-color: #4CAF50;
+.topnav .active {
+  background-color:#0c0c0c;}
+
+.lol {
+  width: 406.5px !important;
+}
+.lol::after {
+  border: 0 !important;
 }
 
 body {
@@ -38,3 +67,30 @@ body {
   background-color: #fff4dd
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button
+{
+  text-align: center;
