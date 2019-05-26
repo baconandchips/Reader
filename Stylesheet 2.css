@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-
+body {
+  background-color: #fff2dd;
+  font-family: 'Righteous', cursive;
+}
 
 /*fix!!*/
 : not(.topnav) {
@@ -40,7 +43,7 @@
   width: 50%;
 }
 
-/* The circles on the timeline */
+/* The circles on the timeline */https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3.amazonaws.com%2Fmedia.skillcrush.com%2Fskillcrush%2Fwp-content%2Fuploads%2F2018%2F03%2Fboxmodel.png&imgrefurl=https%3A%2F%2Ffaqs.skillcrush.com%2Farticle%2F89-box-model-correct-width&docid=g_2Jp8sUu297IM&tbnid=k6ZLZVh1SdPIZM%3A&vet=10ahUKEwjBxazqpLniAhWojFQKHcgkB_AQMwhHKAcwBw..i&w=560&h=324&bih=991&biw=1200&q=how%20to%20see%20the%20margin%20in%20developer&ved=0ahUKEwjBxazqpLniAhWojFQKHcgkB_AQMwhHKAcwBw&iact=mrc&uact=8
 .container::after {
   content: '';
   position: absolute;
@@ -136,4 +139,7 @@
   .right {
   left: 0%;
   }
+
+div {
+  margin-left: 20px;}
 }
